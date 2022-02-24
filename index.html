@@ -1,1 +1,26 @@
-Hello World
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<script type="text/javascript">
+	$(function() {
+		// header.htmlをid属性「header」という名前で読み込むように指定する
+		$("#header").load("https://yuto-34.github.io/header.html");
+		$("#footer").load("https://yuto-34.github.io/footer.html");
+	});
+
+</script>
+
+<meta name="description" content="" />
+<meta name="keywords" content="Yuto," />
+<title>Yuto's Page</title>
+</head>
+
+<body>
+<div class="outer">
+
+	<!-- header.htmlをここに表示する -->
+	<div id="header"></div>
+
+	Hello World! 2
+	<!-- footer.htmlをここに表示する -->
+	<div id="footer"></div>
