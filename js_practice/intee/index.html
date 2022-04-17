@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>Lesson 01</title>
+
+</head>
+<body>
+
+<h1>Lesson 01</h1>
+<p>アラート表示するサンプルです。再度確認するには、再読込します。</p>
+
+<script>
+	window.alert('読込みが完了しました');
+
+</script>
+
+<h2>Lesson 1-5</h2>
+<article>
+	<p>アラート表示するサンプルです。再度確認するには、再読込します。</p>
+</article>
+
+<script>
+	alert(window.scrollY);
+
+</script>
+
+<h1>Lesson 02</h1>
+
+
+<p>変数のサンプルです。再度確認するには、再読込します。</p>
+
+
+<script>
+	var num = prompt('数字を入力してください');
+	alert(num + 'が入力されました');
+
+</script>
+
+<script>
+	window.onbeforeunload = function(e) {
+		e.returnValue = "ページを離れようとしています。よろしいですか？";
+	}
+
+</script>
+
+</body>
+</html>
