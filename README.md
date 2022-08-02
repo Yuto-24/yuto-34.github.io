@@ -108,28 +108,24 @@ gitGraph:
 
 ```mermaid
 gitGraph:
-    branch main
+    checkout main
     commit
-    branch develop
+    checkout develop
     commit
     commit
-    branch feature
+    checkout feature
     commit
-    branch develop
+    checkout develop
     commit
     merge feature
-    branch hotfix
+    checkout hotfix
     checkout hotfix
     commit "bugfix"
     merge hotfix
-    branch develop
+    checkout develop
     merge hotfix
     merge develop
 ```
-
-    checkout main
-    checkout main
-    checkout main
 
 ## 2.ブランチの共有
 
