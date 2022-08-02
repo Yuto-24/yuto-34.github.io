@@ -120,15 +120,15 @@ gitGraph:
     checkout develop
     commit
     merge feature
-    checkout master
+    checkout main
     branch hotfix
     checkout hotfix
     commit "bugfix"
-    checkout master
+    checkout main
     merge hotfix
     checkout develop
     merge hotfix
-    checkout master
+    checkout main
     merge develop
 ```
 
