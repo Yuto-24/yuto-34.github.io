@@ -120,17 +120,18 @@ gitGraph:
     checkout develop
     commit
     merge feature
-    checkout main
     branch hotfix
     checkout hotfix
     commit "bugfix"
-    checkout main
     merge hotfix
     checkout develop
     merge hotfix
-    checkout main
     merge develop
 ```
+
+    checkout main
+    checkout main
+    checkout main
 
 ## 2.ブランチの共有
 
