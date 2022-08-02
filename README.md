@@ -102,7 +102,12 @@ git flow hotfix start v1.0.1
 ```
 
 ```mermaid
-gitGraph:
+gitGraph
+	commit
+```
+
+```mermaid
+gitGraph
 	branch main
     commit
     branch develop
