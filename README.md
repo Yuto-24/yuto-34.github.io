@@ -108,17 +108,17 @@ gitGraph:
 
 ```mermaid
 gitGraph:
-    checkout main
+    branch main
     commit
-    checkout develop
+    branch develop
     commit
     commit
-    checkout feature
+    branch feature
     commit
     checkout develop
     commit
     merge feature
-    checkout hotfix
+    branch hotfix
     checkout hotfix
     commit "bugfix"
     merge hotfix
