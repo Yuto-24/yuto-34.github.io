@@ -9,7 +9,7 @@
 ```bash
 cd
 sudo bash
-wget -q -O - --no-check-certificate https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | bash
+sudo apt install git-flow
 git flow # Confirm whether installation was successful
 exit # exit bash as sudo
 ```
