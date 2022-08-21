@@ -1,0 +1,29 @@
+p {
+	margin: .5ex 5em .5ex 4em;
+}
+
+div.toc {
+	/* background-color: gray; */
+	/* border: double #038 3px; */
+	/* color: black; */
+	background: #f3fbff;
+	border: 2px skyblue dashed;
+	padding: 2em;
+	margin: 0 3em;
+	margin-right: 10%;
+}
+
+div.toc ul {
+	list-style-type: square;
+	list-style-type: disc;
+}
+
+div.toc ul ul {
+	border: none;
+	padding-left: 2em;
+}
+
+div.toc ul li {
+	margin-left: 3em;
+	list-style-type: square;
+}

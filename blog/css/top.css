@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --content-border: 2px;
+    --content-width: 500px;
+    --content-height: 100px;
+}
+
+.contents-box {
+    /* flex 親要素 */
+    width: 100%;
+    display: flex;
+    border: 0px red solid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contents-box a:hover {
+    color: #036;
+    border: var(--content-border) #036 solid;
+    --content-border: 5px;
+}
+
+.content {
+    /* flex 子要素 */
+    text-align: left;
+    display: block;
+    margin: 10px;
+    width: var(--content-width);
+    height: var(--content-height);
+    border: solid var(--content-border) white;
+    background-color: gray;
+}
+
+.pic-box {
+    display: block;
+    width: calc(var(--content-height) - var(--content-border) * 2);
+    font-size: 3em;
+    text-align: center;
+    line-height: calc(var(--content-height) - var(--content-border) * 2);
+    background-color: palevioletred;
+
+}
+
+.content span.title {
+    display: block;
+    padding-left: calc(var(--content-height) + 0.5em);
+    line-height: calc(var(--content-height) - var(--content-border) * 2 - 1.7ex);
+    font-size: 1.3em;
+}
+
+.content span.date {
+    display: block;
+    line-height: 2ex;
+    text-align: right;
+    width: calc(var(--content-width) - var(--content-border));
+    padding-right: 1em;
+}

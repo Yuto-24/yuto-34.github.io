@@ -1,0 +1,17 @@
+*{
+	margin: 0%;
+	padding:0%;
+	/* background: blueviolet; */
+}
+
+div.header {
+	position: fixed;
+	inset: 0;
+	/* top:0px; */
+	/* margin: 0 auto; */
+	margin: auto;
+}
+
+.breadcrumb_area {
+	margin-top: 100px;
+}

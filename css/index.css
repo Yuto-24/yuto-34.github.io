@@ -1,0 +1,132 @@
+/* 目次ここから */
+
+.toc {
+    text-align: left;
+    border: white 10px double;
+    margin: 10px 34px 10px 34px;
+    background-color: #036;
+    color: gray;
+}
+
+.toc li {
+    list-style: none;
+    margin-left: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.toc a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.toc a:hover {
+    color: whitesmoke;
+}
+
+/* 目次ここまで */
+
+p {
+    text-align: left;
+    margin-left: 4em;
+}
+
+/* リンク集ここから */
+
+#right {
+    color: white;
+    max-width: 90%;
+    width: 1200px;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+div.ribbon {
+    background-color: rgb(221, 41, 80);
+    height: 8ex;
+    line-height: 5ex;
+    width: 100%;
+    font-size: 16px;
+    line-height: 4ex;
+}
+
+.side {
+    padding: 6px 0 10px 14px;
+    margin: 0;
+    background-color: #DBE6DE;
+    font-weight: bold;
+    color: #777;
+    box-shadow: 20px 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.side a {
+    color: #036;
+    text-decoration: none;
+}
+
+.side a:hover {
+    text-decoration: underline;
+}
+
+.side ul {
+    margin: 0;
+    padding: 4px 0;
+    text-align: left;
+}
+
+.side li {
+    margin: 7px 0 7px 20px;
+    list-style: disc;
+    padding: 0;
+}
+
+/* リンク集ここまで */
+
+/* 更新一覧ここから */
+
+p.new {
+    text-align: left;
+    padding-top: 4px;
+    padding-left: .4em;
+    width: 80%;
+    height: 20ex;
+    border: black solid;
+    overflow-y: scroll;
+    font-size: 18px;
+    line-height: 2.8ex;
+    margin: 0 0 0 0;
+}
+
+/* 更新一覧ここまで */
+
+/* topic一覧ここから */
+ul#left {
+    text-align: left;
+    margin-left: 4em;
+}
+
+/* topic一覧ここまで */
+
+p.scroll {
+    line-height: 5px;
+    overflow-y: scroll;
+}
+
+
+@media screen and (max-width: 1000px) {
+	/* リンク集 */
+    #right {
+        float: none;
+        width: 80%;
+        width: 100%;
+        clear: both;
+    }
+
+    img {
+        zoom: 80%;
+    }
+}
